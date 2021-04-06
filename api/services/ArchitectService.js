@@ -1,4 +1,4 @@
-const Architect = require('../models/Architect');
+const Architect = require('../models/architect');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
