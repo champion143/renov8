@@ -1,4 +1,4 @@
-const Floor = require('../models/Floor');
+const Floor = require('../models/floor');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 

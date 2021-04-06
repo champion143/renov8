@@ -1,4 +1,4 @@
-const Interior = require('../models/Interior');
+const Interior = require('../models/interior');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
