@@ -1,6 +1,10 @@
 const User = require('../services/userService')
 
 
+module.exports.test = (req, res, next) => {
+    res.send("Api working Fine Here")
+}
+
 module.exports.signUp = (req, res, next) => {
     User.signUp(req.body,req.file).then((result)=>{
         res.json(result)
