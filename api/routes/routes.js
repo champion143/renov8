@@ -9,7 +9,7 @@ const Carpenter = require('../controller/CarpenterController')
 const { uploadImg } = require('../middleware/fileUpload')
 const { auth } = require('../middleware/auth')
 
-router.post('/testing',User.test);
+router.get('/testing',User.test);
 /* user api */
 router.post('/signUp',uploadImg,User.signUp);
 router.post('/login',User.Login);
